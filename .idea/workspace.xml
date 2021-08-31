@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="369c594f-44d2-4ed3-adc3-7188d0fce108" name="Changes" comment="" />
+    <list default="true" id="369c594f-44d2-4ed3-adc3-7188d0fce108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dannykudinov/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dannykudinov/spring/mvc/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/first-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/myView.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dannykudinov/spring/mvc/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/view/myView.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -31,6 +44,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1xTyEXqhAI81gc1AqRN7oleq9YY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,6 +64,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35602096" />
     <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
@@ -149,7 +171,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630393264594</updated>
       <workItem from="1630393267443" duration="608000" />
-      <workItem from="1630393900137" duration="3793000" />
+      <workItem from="1630393900137" duration="4398000" />
+      <workItem from="1630406686427" duration="9250000" />
     </task>
     <servers />
   </component>
