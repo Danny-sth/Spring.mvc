@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring_course_mvc" />
+      <artifact name="Spring.mvc:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,15 +10,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369c594f-44d2-4ed3-adc3-7188d0fce108" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dannykudinov/spring/mvc/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.52/webapps/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.52/webapps/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-9.0.52/webapps/spring_course_mvc/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-9.0.52/webapps/spring_course_mvc/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_course_mvc/spring_course_mvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/spring_course_mvc/spring_course_mvc.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/spring_course_mvc/spring_course_mvc.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dannykudinov/spring/mvc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dannykudinov/spring/mvc/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-emp-details-view.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dannykudinov/spring/mvc/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/view/show-emp-details-view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/classes/com/dannykudinov/spring/mvc/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-aop-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-beans-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-context-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-core-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-expression-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-jcl-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-web-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/lib/spring-webmvc-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/view/ask-emp-details-view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/view/first-view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/view/show-emp-details-view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_course_mvc/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,17 +93,17 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat Server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="update-resources" />
+    <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="spring_course_mvc">
+        <artifact name="Spring.mvc:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring_course_mvc" />
+            <option name="CONTEXT_PATH" value="/Spring_mvc_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="c3a9565b-865b-494a-8610-e2b339244bc5" />
+        <option name="BASE_DIRECTORY_NAME" value="05b6a86f-453e-46bf-9897-60c52ecf56c9" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -92,7 +111,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="44067" />
+        <option name="DEBUG_PORT" value="49919" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -157,7 +176,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="spring_course_mvc" />
+          <artifact name="Spring.mvc:war exploded" />
         </option>
       </method>
     </configuration>
@@ -177,11 +196,25 @@
       <workItem from="1630393900137" duration="4398000" />
       <workItem from="1630406686427" duration="9250000" />
       <workItem from="1630422482494" duration="1359000" />
+      <workItem from="1630488483748" duration="2693000" />
+      <workItem from="1630491308766" duration="2994000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
