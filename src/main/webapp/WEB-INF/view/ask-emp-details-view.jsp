@@ -5,6 +5,7 @@
 <H2>Dear Employee, Please enter your details</H2>
 <br>
 <br>
+<%--@elvariable id="employee" type="com.dannykudinov.spring.mvc.Employee"--%>
 <form:form action="showDetails" modelAttribute="employee">
     Name: <form:input path="name"></form:input>
     <br><br>
@@ -12,6 +13,12 @@
     <br><br>
     Salary: <form:input path="salary"></form:input>
     <br><br>
+
+    Department: <form:select path="department">
+    <form:options items="${employee.departments}"/>
+</form:select>
+    <br><br>
+
     <input type="submit" value="OK">
 </form:form>
 </body>
