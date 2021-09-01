@@ -21,6 +21,11 @@
     Which car do you want?
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"></form:radiobuttons>
     <br>
+    <br>
+    Foreign Language(s)
+    <form:checkboxes path="lanquages" items="${employee.languageList}"></form:checkboxes>
+    <br>
+    <br>
     <input type="submit" value="OK">
 </form:form>
 </body>
