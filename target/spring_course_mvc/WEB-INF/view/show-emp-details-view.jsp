@@ -14,6 +14,10 @@ Your surname: ${employee.surname}
 <br>
 Your salary: ${employee.salary}
 <br>
+Your phone number: ${employee.phoneNumber}
+<br>
+Your email: ${employee.email}
+<br>
 Your Department: ${employee.department}
 <br>
 Your car: ${employee.carBrand}
@@ -25,7 +29,6 @@ Language(s):
         <li> ${lang} </li>
 
     </c:forEach>
-
 </ul>
 </body>
 </html>

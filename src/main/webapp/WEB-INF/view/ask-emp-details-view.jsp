@@ -8,16 +8,29 @@
 <%--@elvariable id="employee" type="com.dannykudinov.spring.mvc.Employee"--%>
 <form:form action="showDetails" modelAttribute="employee">
     Name: <form:input path="name"></form:input>
+    <form:errors path="name"></form:errors>
     <br><br>
+
     Surname: <form:input path="surname"></form:input>
+    <form:errors path="surname"></form:errors>
     <br><br>
+
     Salary: <form:input path="salary"></form:input>
+    <form:errors path="salary"></form:errors>
+    <br><br>
+
+    Phone Number: <form:input path="phoneNumber"></form:input>
+    <form:errors path="phoneNumber"></form:errors>
+    <br><br>
+
+    Email: <form:input path="email"></form:input>
+    <form:errors path="email"></form:errors>
     <br><br>
 
     Department: <form:select path="department">
-    <form:options items="${employee.departments}"/>
-</form:select>
+    <form:options items="${employee.departments}"/></form:select>
     <br><br>
+
     Which car do you want?
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"></form:radiobuttons>
     <br>
