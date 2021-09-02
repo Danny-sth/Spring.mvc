@@ -2,11 +2,11 @@ package com.dannykudinov.spring.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.servlet.http.HttpServletRequest;
-
 @Controller
+@RequestMapping("/employee")
 public class MyController {
 
     @RequestMapping("/")
@@ -15,15 +15,26 @@ public class MyController {
     }
 
     @RequestMapping("/askDetails")
-    public String askEmployeeDetails() {
+    public String askEmployeeDetails(Model model) {
+        Employee emp = new Employee();
+        model.addAttribute("employee", emp);
+
         return "ask-emp-details-view";
     }
 
+
     @RequestMapping("/showDetails")
-    public String showEmpDetails(HttpServletRequest request, Model model) {
-        String empName = request.getParameter("employeeName");
-        empName = "Mrs. " + empName;
-        model.addAttribute("empName", empName);
+    public String showEmpDetails(@ModelAttribute("employee")
+                                         Employee employee) {
+        String name = employee.getName();
+        employee.setName("Mr. " + name);
+
+        String surname = employee.getSurname();
+        employee.setSurname(surname + "!");
+
+        int salary = employee.getSalary();
+        employee.setSalary(salary * 10);
+
         return "show-emp-details-view";
     }
 }
